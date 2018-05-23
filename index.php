@@ -15,10 +15,10 @@
   "telephone": "561-573-7773",
   "address" : {
     "@type" : "PostalAddress",
-    "streetAddress" : "306 NW 1st St",
-    "addressLocality" : "Delray Beach",
+    "streetAddress" : "8963 Old Pine Way",
+    "addressLocality" : "Boca Raton",
     "addressRegion" : "FL",
-    "postalCode" : "33444"
+    "postalCode" : "33433"
   },
   "url": "http://www.toddsweather.com/"
 }
@@ -70,13 +70,13 @@
 				</li><!-- /end .figure -->
 				<li id="satelliteW" class="figure">
 					<a href="http://www.wunderground.com/tropical/">
-						<img src="http://icons-ak.wxug.com/data/images/blogs/ep_ir4_sat_tropicalindex_anim" alt="Pacific Infrared Satellite Loop" />
+						<img src="http://icons.wxug.com/data/images/blogs/ep_ir4_sat_tropicalindex_anim.gif" alt="Pacific Infrared Satellite Loop" />
 						<span class="figcaption">Pacific Infrared <b>Satellite Loop</b></span>
 					</a>
 				</li><!-- /end .figure -->
 				<li id="satellite" class="figure">
 					<a href="http://www.wunderground.com/tropical/">
-						<img src="http://icons-ak.wxug.com/data/images/blogs/atl_ir4_sat_tropicalindex_anim" alt="Atlantic Infrared Satellite Loop" />
+						<img src="http://icons.wxug.com/data/images/blogs/atl_ir4_sat_tropicalindex_anim.gif" alt="Atlantic Infrared Satellite Loop" />
 						<span class="figcaption">Atlantic Infrared <b>Satellite Loop</b></span>
 					</a>
 				</li><!-- /end .figure -->
@@ -130,10 +130,10 @@
 					</a>
 				</li><!-- /end .figure -->
 
-				<li id="accuw" class="figure">
-					<a id="accuwx" href="http://www.accuweather.com/">
-					    <img src="http://curatorlive.com/images/clients/accuwx/feature.JPG" alt="Feature AccuWeather Image">
-					    <span class="figcaption">AccuWeather <b>Feature</b></span>
+				<li id="africandust" class="figure">
+					<a id="dustatl" href="http://wind.tau.ac.il/dust8/dust-atlan.html">
+					    <img src="http://wind.tau.ac.il/dust8/dust-animation-atlan.gif" alt="Current African-dust forecast">
+					    <span id="africandustmap" class="figcaption">African Dust <b>Forecast</b></span>
 					</a>
 				</li><!-- /end .figure -->
 
@@ -141,12 +141,6 @@
 					<a id="pollendotcom" href="http://www.pollen.com/">
 					    <img src="http://i.cnn.net/cnn/.element/img/1.0/weather/accu/overall.png" alt="Current pollen count map">
 					    <span id="pollencount" class="figcaption">Current <b>Pollen Count</b></span>
-					</a>
-				</li><!-- /end .figure -->
-				<li id="africandust" class="figure">
-					<a id="dustatl" href="http://wind.tau.ac.il/dust8/dust-atlan.html">
-					    <img src="http://wind.tau.ac.il/dust8/dust-animation-atlan.gif" alt="Current African-dust forecast">
-					    <span id="africandustmap" class="figcaption">African Dust <b>Forecast</b></span>
 					</a>
 				</li><!-- /end .figure -->
 
