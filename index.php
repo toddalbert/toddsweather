@@ -154,7 +154,6 @@
 
 		</div><!-- /end .section.main -->
 		<div class="footer">
-			<p>Site designed and run by <a href="http://www.toddalbert.com/">Todd Albert</a>. We provide a quick look at <a href="http://www.toddsweather.com/">US Weather</a> using carbon-neutral <a href="http://www.dreamhost.com/r.cgi?654660">web hosting</a>, and featuring top-notch <a href="http://www.nebularagency.com/">web development</a>.</p>
 
 <div class="g-plusone" style="float:left;"></div>
 

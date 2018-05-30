@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Todd's Weather: US and regional Weather</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link rel="stylesheet" href="dark.css?rev=b" type="text/css" />
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "Organization",
+			"name": "Todd's Weather",
+			"telephone": "561-573-7773",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "8963 Old Pine Way",
+				"addressLocality": "Boca Raton",
+				"addressRegion": "FL",
+				"postalCode": "33433"
+			},
+			"url": "http://www.toddsweather.com/"
+		}
+	</script>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-37250695-1', 'toddsweather.com');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<div id="page">
+		<div class="inner">
+			<!-- /end .mast -->
+			<nav>
+				<div class="nav-wrapper">
+					<span class="brand-logo">
+						<img alt="ToddsWeather.com" src="images/toddsweather-logo.png" />
+					</span>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="https://www.linkedin.com/in/toddalbert/">LinkedIn</a></li>
+						<li><a href="http://www.flickr.com/earthclimate">Flickr</a></li>
+						<li><a href="https://www.instagram.com/todd.albert/">Instagram</a></li>
+						<li><a href="http://twitter.com/toddalbert">Twitter</a></li>
+						<li><a href="http://facebook.com/ToddHAlbert">Facebook</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="section intro center">
+				<h1>US, Local, Regional, &amp; Tropical Weather</h1>
+			</div>
+			<!-- /end .section.intro -->
+
+
+			<div class="section main">
+
+				<div class="row">
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Today's National Forecast" src="http://www.wpc.ncep.noaa.gov/noaa/noaad1.gif">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.wpc.ncep.noaa.gov/" class="card-title">
+									Today's National Forecast</a>
+							</div>
+						</div>
+					</div>
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Mixed Surface Analysis" src="http://images.intellicast.com/WxImages/CustomGraphic/sfcmap.gif">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.intellicast.com/National/Surface/Mixed.aspx" class="card-title">
+									Mixed Surface Analysis</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" src="http://icons.wxug.com/data/images/blogs/ep_ir4_sat_tropicalindex_anim.gif" alt="Pacific Infrared Satellite Loop">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.wunderground.com/tropical/" class="card-title">
+									Pacific Infrared Satellite Loop</a>
+							</div>
+						</div>
+					</div>
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" src="http://icons.wxug.com/data/images/blogs/atl_ir4_sat_tropicalindex_anim.gif" alt="Atlantic Infrared Satellite Loop">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.wunderground.com/tropical/" class="card-title">
+									Atlantic Infrared Satellite Loop</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Storm Prediction Center Overview" src="http://www.spc.noaa.gov/products/activity_loop.gif">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.spc.noaa.gov/" class="card-title">
+									Storm Prediction Center Overview</a>
+							</div>
+						</div>
+					</div>
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Florida Radar Loop" src="http://images.intellicast.com/WxImages/RadarLoop/pie_None_anim.gif">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.intellicast.com/National/Radar/Current.aspx?location=USFL0438&animate=true" class="card-title">
+									Florida Radar Loop</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Today's Predominant Weather" src="http://www.weather.gov/forecasts/graphical/images/conus/Wx1_conus.png">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.weather.gov/forecasts/graphical/sectors/conus.php?element=Wx" class="card-title">
+									Today's Predominant Weather</a>
+							</div>
+						</div>
+					</div>
+					<div class="col m12 l6">
+						<div class="card">
+							<div class="card-image">
+								<img class="materialboxed" alt="Watches and Warnings" src="http://icons-sf.wunderground.com/data/640x480/2xus_severe.gif">
+							</div>
+							<div class="card-content center">
+								<a href="http://www.wunderground.com/severe.asp" class="card-title">
+									Watches &amp; Warnings</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="24hr Precipitation Forecast" src="http://www.wpc.ncep.noaa.gov/qpf/fill_94qwbg.gif">
+								</div>
+								<div class="card-content center">
+									<a href="http://www.wpc.ncep.noaa.gov/qpf/qpf2.shtml" class="card-title">
+										24hr Precipitation Forecast</a>
+								</div>
+							</div>
+						</div>
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="Precipitation Forecast Loop" src="http://www.nssl.noaa.gov/wrf/precip12.png">
+								</div>
+								<div class="card-content center">
+									<a href="http://www.nssl.noaa.gov/wrf/preciploop.html" class="card-title">
+										Precipitation Forecast</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="Tropical Weather Overview" src="http://icons.wunderground.com/data/images/sst_basin/gl_sst.gif">
+								</div>
+								<div class="card-content center">
+									<a href="http://www.wunderground.com/tropical/" class="card-title">
+										Tropical Weather &amp; Hurricanes</a>
+								</div>
+							</div>
+						</div>
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="Local Conditions and Forecast" src="http://icons-ak.wunderground.com/data/images/us_sf.gif">
+								</div>
+								<div class="card-content center">
+									<a href="http://www.wunderground.com/" class="card-title">
+										Local Conditions and Forecast</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="African Dust Forecast" src="http://wind.tau.ac.il/dust8/dust-animation-atlan.gif">
+								</div>
+								<div class="card-content center">
+									<a href="http://wind.tau.ac.il/dust8/dust-atlan.html" class="card-title">
+										African Dust Forecast</a>
+								</div>
+							</div>
+						</div>
+						<div class="col m12 l6">
+							<div class="card">
+								<div class="card-image">
+									<img class="materialboxed" alt="Current Pollen Count" src="http://i.cnn.net/cnn/.element/img/1.0/weather/accu/overall.png">
+								</div>
+								<div class="card-content center">
+									<a href="http://www.pollen.com/" class="card-title">
+										Current Pollen Count</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div style="clear:both"></div>
+
+			</div>
+			<!-- /end .section.main -->
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
+
+		</div>
+		<!-- /end .inner -->
+	</div>
+	<!-- /end #page -->
+	<!-- Grab location to get local forecast -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.materialboxed').materialbox();
+		});
+	</script>
+	<!-- Compiled and minified Materialize JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
+
+</html>
