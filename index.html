@@ -11,22 +11,6 @@
 	<!-- Compiled and minified Materialize CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 	<link rel="stylesheet" href="dark.css?rev=b" type="text/css" />
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org/",
-			"@type": "Organization",
-			"name": "Todd's Weather",
-			"telephone": "561-573-7773",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "8963 Old Pine Way",
-				"addressLocality": "Boca Raton",
-				"addressRegion": "FL",
-				"postalCode": "33433"
-			},
-			"url": "http://www.toddsweather.com/"
-		}
-	</script>
 	<script>
 		(function (i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
@@ -100,7 +84,7 @@
 					<div class="col m12 l6">
 						<div class="card">
 							<div class="card-image">
-								<img class="materialboxed" src="http://icons.wxug.com/data/images/blogs/ep_ir4_sat_tropicalindex_anim.gif" alt="Pacific Infrared Satellite Loop">
+								<img class="materialboxed" src="https://api.weather.com/v2/maps/dynamic?apiKey=e1f10a1e78da46f5b10a1e78da96f525&geocode=38%2C-129&lod=4&product=sat&h=600&w=800&map=satellite" alt="Pacific Infrared Satellite Loop">
 							</div>
 							<div class="card-content center">
 								<a href="http://www.wunderground.com/tropical/" class="card-title">
@@ -111,7 +95,7 @@
 					<div class="col m12 l6">
 						<div class="card">
 							<div class="card-image">
-								<img class="materialboxed" src="http://icons.wxug.com/data/images/blogs/atl_ir4_sat_tropicalindex_anim.gif" alt="Atlantic Infrared Satellite Loop">
+								<img class="materialboxed" src="https://api.weather.com/v2/maps/dynamic?apiKey=e1f10a1e78da46f5b10a1e78da96f525&geocode=30%2C-65&lod=4&product=sat&h=600&w=800&map=satellite" alt="Atlantic Infrared Satellite Loop">
 							</div>
 							<div class="card-content center">
 								<a href="http://www.wunderground.com/tropical/" class="card-title">
@@ -161,10 +145,11 @@
 					<div class="col m12 l6">
 						<div class="card">
 							<div class="card-image">
-								<img class="materialboxed" alt="Watches and Warnings" src="http://icons-sf.wunderground.com/data/640x480/2xus_severe.gif">
+								<img class="materialboxed" alt="Watches and Warnings"
+									src="https://forecast.weather.gov/wwamap/png/US.png">
 							</div>
 							<div class="card-content center">
-								<a href="http://www.wunderground.com/severe.asp" class="card-title">
+								<a href="https://www.spc.noaa.gov/products/wwa/" class="card-title">
 									Watches &amp; Warnings</a>
 							</div>
 						</div>
@@ -186,21 +171,7 @@
 						<div class="col m12 l6">
 							<div class="card">
 								<div class="card-image">
-									<img class="materialboxed" alt="Precipitation Forecast Loop" src="http://www.nssl.noaa.gov/wrf/precip12.png">
-								</div>
-								<div class="card-content center">
-									<a href="http://www.nssl.noaa.gov/wrf/preciploop.html" class="card-title">
-										Precipitation Forecast</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col m12 l6">
-							<div class="card">
-								<div class="card-image">
-									<img class="materialboxed" alt="Tropical Weather Overview" src="http://icons.wunderground.com/data/images/sst_basin/gl_sst.gif">
+									<img class="materialboxed" alt="Tropical Weather Overview" src="https://api.weather.com/v2/maps/dynamic?apiKey=e1f10a1e78da46f5b10a1e78da96f525&geocode=30%2C-65&lod=4&h=768&w=1024&map=dark&product=seaSurfaceTemperature">
 								</div>
 								<div class="card-content center">
 									<a href="http://www.wunderground.com/tropical/" class="card-title">
@@ -208,27 +179,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="col m12 l6">
-							<div class="card">
-								<div class="card-image">
-									<img class="materialboxed" alt="Local Conditions and Forecast" src="http://icons-ak.wunderground.com/data/images/us_sf.gif">
-								</div>
-								<div class="card-content center">
-									<a href="http://www.wunderground.com/" class="card-title">
-										Local Conditions and Forecast</a>
-								</div>
-							</div>
-						</div>
 					</div>
 
 					<div class="row">
 						<div class="col m12 l6">
 							<div class="card">
 								<div class="card-image">
-									<img class="materialboxed" alt="African Dust Forecast" src="http://wind.tau.ac.il/dust8/dust-animation-atlan.gif">
+									<img class="materialboxed" alt="African Dust Forecast" src="https://www.ospo.noaa.gov/data/aerosol/aerday.c.gif">
 								</div>
 								<div class="card-content center">
-									<a href="http://wind.tau.ac.il/dust8/dust-atlan.html" class="card-title">
+									<a href="https://www.weather.gov/sju/dss_sal" class="card-title">
 										African Dust Forecast</a>
 								</div>
 							</div>
